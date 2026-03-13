@@ -1,22 +1,9 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+HUONG DANSETUP npm install @shelby-protocol/sdk @aptos-labs/ts-sdk import { ShelbyNodeClient } from "@shelby-protocol/sdk/node"; import { Network } from "@aptos-labs/ts-sdk";
+
+// Create client configuration const config = { network: Network.TESTNET, apiKey: "aptoslabs_***", };
+
+// Initialize the Shelby client const shelbyClient = new ShelbyNodeClient(config); import { ShelbyClient } from '@shelby-protocol/sdk/browser' import { Network } from '@aptos-labs/ts-sdk'
+
+// Create client configuration const config = { network: Network.TESTNET apiKey: "aptoslabs_***", }
+
+// Initialize the Shelby client const shelbyClient = new ShelbyClient(config)
